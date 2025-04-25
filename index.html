@@ -23,8 +23,8 @@
             background-repeat: no-repeat;
             background-size: cover;
             text-align: center;
-            margin: 50px auto 0;
-            padding: 16px 0;
+            margin: 5rem auto 0;
+            padding: 5rem 0;
             color: white;
             border-radius: 10px;
         }
@@ -78,13 +78,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#jumbotron">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-disabled="false">Download my App</a>
+                <a class="nav-link" aria-disabled="false" href="#footer">Download my App</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -96,7 +96,7 @@
         </div>
       </nav>
 
-      <div class="jumbotron">
+      <div class="jumbotron" id="jumbotron">
         <div class="display-4">Hello, World!</div>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component</p>
         <hr class="my-4">
@@ -111,7 +111,7 @@
         <p>This app is Awesome to use</p>
       </div>
 
-      <div class="card-deck container">
+      <div class="card-deck container" id="about">
         <div class="card">
             <img src="images/card.jpg" alt="card image" class="card-img-top">
             <div class="card-body">
