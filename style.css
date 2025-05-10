@@ -20,6 +20,7 @@
 }
 
 .card-deck {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,9 +49,15 @@
     width: 200px;
 }
 
-@media only screen and(max-width: 899px){
+@media only screen and (max-width: 900px){
     .card-deck {
         flex-direction: column;
         padding: 16px 12px;
+    }
+
+    .card {
+        width: 96%;
+        padding: .8rem 0;
+        margin: .8rem 0;
     }
 }
